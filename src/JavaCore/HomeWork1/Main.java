@@ -19,6 +19,6 @@ public class Main {
             member.competition(course);
         }
         System.out.println("Участники: ");
-        System.out.println(Team.teamName + " " + Arrays.toString(members));
+        System.out.println(Team.getTeamName() + " " + Arrays.toString(members));
     }
 }

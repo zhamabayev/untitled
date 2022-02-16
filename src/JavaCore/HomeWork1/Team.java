@@ -1,14 +1,14 @@
 package JavaCore.HomeWork1;
 
 public class Team {
-    public static String teamName;
+    private static String teamName;
     private Member[] members;
 
     public Team (String teamName, Member[] members) {
         this.teamName = teamName;
         this.members = members;
     }
-    public String getTeamName() {
+    public static String getTeamName() {
         return teamName;
     }
     public Member[] getMembers() {
