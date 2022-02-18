@@ -14,4 +14,5 @@ public class Course {
     public Integer getSwimDistance() {
         return swimDistance;
     }
+
 }

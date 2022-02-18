@@ -21,4 +21,5 @@ public class Main {
         System.out.println("Участники: ");
         System.out.println(Team.getTeamName() + " " + Arrays.toString(members));
     }
+
 }
